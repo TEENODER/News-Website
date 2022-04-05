@@ -1,0 +1,26 @@
+@media only screen and (max-width:500px) {
+    #logo{
+        height: 103px;
+        width: 180px;
+    }
+    marquee{
+        display: flex;
+        font-size: 15px;
+    }
+    .catergories{
+        flex-direction: column;
+    }
+    .bt{
+        margin: 2px;
+    }
+    .news-container{
+        height: 50%;
+    }
+}
+
+@media only screen and (min-height:500px) {
+    .catergories{
+        display: flex;
+        justify-content: center;
+    }
+}
