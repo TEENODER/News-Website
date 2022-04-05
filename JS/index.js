@@ -96,10 +96,11 @@ class VpmNews{
         })
     }
 }
-// window.onload = function(){
-//     let cat  = localStorage.getItem('cat')
-//     if(cat!=null){
-//         newschannel.retriveData(cat)
-//     }
-// }
+window.onload = function(){
+    let cat  = localStorage.getItem('cat')
+    if(cat!=null){
+        news.innerHTML = null
+        newschannel.retriveData(cat)
+    }
+}
 let newschannel = new VpmNews()
