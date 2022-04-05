@@ -13,7 +13,7 @@ let catdiv = document.querySelector('.catergories')
 catergories.forEach(function(catergory,index){
     let bt = document.createElement('button')
     bt.id = `button${index}`
-    bt.className = 'bt'
+    bt.classList.add('btn','bt')
     bt.innerText = catergory
     catdiv.appendChild(bt)
 })
